@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css?family=Saira:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            theme: {
+            extend: {
+                fontFamily: { 
+                    saira : ["Saira", "Arial"],
+                },
+                colors: {
+                    white40:"#E2E2E240",
+                    green:"#286F6C"
+                },
+
+            },
+            },
+        };
+    </script>
+</head>
+<body class="font-saira">
+    <header class="text-white md:px-[130px] px-[25px] bg-black py-[50px] ">
+        <nav class=" flex justify-between items-center">
+            <p class=" md:text-[32px] text-[24px] font-bold">FurniShop</p>
+            <ul class="md:flex gap-[64px] text-[16px] hidden " id="menu ">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button type="button" class="md:hidden bloc" id="btnmenu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12H7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21 6H3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21 18H3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+            </button>
+        </nav>
+        <div class="">
+            <h1 class=" text-center font-bold text-[24px] md:text-[64px] mt-[120px] md:[140px]">
+                Creative Home Simpify your Furniture
+            </h1>
+            <p class="text-[14px] md:text-[20px] text-center font-normal mt-[30px]">
+                Do i have consent to record this meeting gain locaion, root-and-branch, review, nor game plan who’s the goto
+            </p>
+            <div class="flex justify-center mt-[30px] md:mt-[60px] ">
+                <button class=" text-[14] md:text-[20px]  bg-white40 px-[35px] py-[9px] md:px-[80px] md:py-[16px] rounded-[10px] ">
+                    Shop Now
+                </button>
+            </div>
+        </div>
+        <div class=" bg-green md:flex rounded-[20px] md:mt-[194px] mt-[120px]">
+            <div class="flex justify-center py-[40px]  ">
+                <div class="flex flex-col items-center px-[40px] md:px-[95px] border-r ">
+                    <h3 class="text-[24px] font-bold md:text-[40px] ">
+                        7
+                    </h3>
+                    <p class="text-[14px] text-center  md:text-[20px]">
+                        Year Experience
+                    </p>
+                </div>
+                <div class="flex flex-col items-center px-[40px] md:px-[95px] md:border-r ">
+                    <h3 class="text-[24px] font-bold md:text-[40px] ">
+                        2
+                    </h3>
+                    <p class="text-[14px] text-center  md:text-[20px]">
+                        Opened in the country
+                    </p>
+                </div>
+            </div>
+            <div class="flex justify-center py-[40px] ">
+                <div class="flex flex-col items-center px-[40px] md:px-[95px] border-r ">
+                    <h3 class="text-[24px] font-bold md:text-[40px] ">
+                        60+
+                    </h3>
+                    <p class="text-[14px] text-center  md:text-[20px]">
+                        Furniture sold
+                    </p>
+                </div>
+                <div class="flex flex-col items-center px-[40px] md:px-[95px] ">
+                    <h3 class="text-[24px] font-bold md:text-[40px] ">
+                        250+
+                    </h3>
+                    <p class="text-[14px] text-center  md:text-[20px]">
+                        Variant Furniture
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="md:px-[130px] px-[25px] py-[50px] ">
+        <section class="  flex flex-col-reverse md:flex-row  justify-center items-center md:gap-[100px]">
+            <img src="./images/peng.png" alt="" class="md:w-[555px] md:h-[444px] w-[340px] h-[270px] rounded-[5px] ">
+            <div class="mb-[50px]">
+                <h2 class=" text-[24px] md:text-[40px] font-bold">We Create your home more aestetic</h2>
+                <p class="text-[14px] md:text-[20px] font-normal">
+                    Furnitre power is a software as services for multiperpose business management system, 
+                </p>
+                <h3 class="flex  items-center gap-[18px]  font-semibold  mt-[20px]"> 
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666016 9.99996C0.666016 4.8453 4.84469 0.666626 9.99935 0.666626C12.4747 0.666626 14.8487 1.64996 16.599 3.4003C18.3494 5.15064 19.3327 7.52461 19.3327 9.99996C19.3327 15.1546 15.154 19.3333 9.99935 19.3333C4.84469 19.3333 0.666016 15.1546 0.666016 9.99996ZM9.72797 13.4627L14.3946 8.79599C14.7606 8.43001 14.7606 7.83663 14.3946 7.47065C14.0287 7.10467 13.4353 7.10467 13.0693 7.47065L9.0653 11.484L6.92797 9.33732C6.69122 9.10057 6.34615 9.00811 6.02275 9.09477C5.69934 9.18142 5.44673 9.43403 5.36008 9.75743C5.27342 10.0808 5.36588 10.4259 5.60263 10.6627L8.40263 13.4627C8.57788 13.6393 8.81644 13.7387 9.0653 13.7387C9.31416 13.7387 9.55272 13.6393 9.72797 13.4627Z" fill="#23262F"/>
+                        </svg>
+                        Valuation Services
+                </h3>
+                <p  class="text-[14px] md:text-[20px] font-normal ml-[40px] ">
+                    Sometimes features require a short description.  This can be detailed description
+                </p>
+                <h3 class="flex  items-center gap-[18px] font-semibold mt-[20px]">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666016 9.99996C0.666016 4.8453 4.84469 0.666626 9.99935 0.666626C12.4747 0.666626 14.8487 1.64996 16.599 3.4003C18.3494 5.15064 19.3327 7.52461 19.3327 9.99996C19.3327 15.1546 15.154 19.3333 9.99935 19.3333C4.84469 19.3333 0.666016 15.1546 0.666016 9.99996ZM9.72797 13.4627L14.3946 8.79599C14.7606 8.43001 14.7606 7.83663 14.3946 7.47065C14.0287 7.10467 13.4353 7.10467 13.0693 7.47065L9.0653 11.484L6.92797 9.33732C6.69122 9.10057 6.34615 9.00811 6.02275 9.09477C5.69934 9.18142 5.44673 9.43403 5.36008 9.75743C5.27342 10.0808 5.36588 10.4259 5.60263 10.6627L8.40263 13.4627C8.57788 13.6393 8.81644 13.7387 9.0653 13.7387C9.31416 13.7387 9.55272 13.6393 9.72797 13.4627Z" fill="#23262F"/>
+                        </svg>
+                        Development of Furniture Modelss
+                </h3>
+                <p  class="text-[14px] md:text-[20px] font-normal ml-[40px]">
+                    Sometimes features require a short description. This can be detailed description
+                </p>
+            </div>
+        </section>
+  
+        <div class="container mx-auto px-4 py-8">
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold mb-4">New In Store Now</h2>
+                <p class="text-gray-600 mb-6">Get the latest items immediately with promo prices</p>
+                <a href="#" class="text-blue-500 underline mb-6 block">Check All &rarr;</a>
+    
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="images/peng.png" alt="Chair" class="w-full h-32 object-cover">
+                        <div class="p-4 text-center">Chair</div>
+                    </div>
+    
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="images/mclean.png" alt="Bed" class="w-full h-32 object-cover">
+                        <div class="p-4 text-center">Bed</div>
+                    </div>
+    
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="images/sanibell.png" alt="Cupboard" class="w-full h-32 object-cover">
+                        <div class="p-4 text-center">Cupboard</div>
+                    </div>
+    
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="images/jean.png" alt="Lighting" class="w-full h-32 object-cover">
+                        <div class="p-4 text-center">Lighting</div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2 class="text-2xl font-bold mb-8">What People Are Saying About Us</h2>
+    
+                <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                    <div class="bg-white rounded-lg shadow-md p-6 w-full md:w-1/3">
+                        <div class="flex items-center mb-4">
+                            <img src="images/josh-smith.png" alt="Profile" class="w-12 h-12 rounded-full">
+                            <div class="ml-4">
+                                <h3 class="text-lg font-semibold">Josh Smith</h3>
+                                <p class="text-gray-500 text-sm">Manager of The New York Times</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">“They have a perfect touch for making something so professional, interesting, and useful for a lot of people.”</p>
+                    </div>
+    
+                    <div class="w-full md:w-2/3">
+                        <img src="images/house.png" alt="Living Room" class="rounded-lg shadow-md">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+ 
+        <footer>
+            
+        </footer>
+    
+</body>
+</html>
